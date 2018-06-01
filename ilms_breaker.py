@@ -23,4 +23,4 @@ for month in range(start_month, 13):
         for i in range(10000):
             password = str(i).zfill(4) + str(month).zfill(2) + str(day).zfill(2)
             login(password)
-            sleep(0.25)
+            sleep(0.1)
