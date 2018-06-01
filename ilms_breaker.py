@@ -8,11 +8,9 @@ start_month = 1
 
 
 def login(password):
-    print "Trying", password
     url = url_base + "?account=" + account + "&password=" + password
     response = urllib.urlopen(url)
     data = json.loads(response.read())
-    print data
     status = data["ret"]["status"]
     if(status != "false"):
         print password
