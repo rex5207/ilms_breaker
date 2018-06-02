@@ -3,7 +3,7 @@ import json
 from time import sleep
 
 url_base = "http://lms.nthu.edu.tw/sys/lib/ajax/login_submit.php"
-account = "106061702"
+account = "<stu_id>"
 start_month = 1
 
 
